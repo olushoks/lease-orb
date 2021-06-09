@@ -1,0 +1,58 @@
+.section {
+  background-color: hsla(180, 7%, 97%, 0.98);
+  position: fixed;
+  top: 23%;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1;
+}
+
+.close-btn {
+  font-size: 1rem;
+  color: #6f0fa7;
+  top: 0%;
+  position: fixed;
+  left: -3%;
+  cursor: pointer;
+}
+
+.nav-current {
+  position: fixed;
+  top: 25%;
+  right: 0%;
+  background-color: rgba(112, 15, 169, 0.1);
+  padding: 0.7rem;
+  height: auto;
+  border-radius: 0 1rem 1rem 1rem;
+}
+
+.current-nav-indicator {
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #6f0fa7;
+  text-align: center;
+  height: 2rem;
+  border-radius: 0.3rem 0.2rem;
+  padding: 0.2rem 0;
+}
+
+.delete-btn {
+  background-color: transparent;
+  border: 0.1rem solid #6f0fa7;
+  border-radius: 0.3rem;
+  color: #6f0fa7;
+  width: 8rem;
+  padding: 0.2rem 0.2rem;
+  position: relative;
+  right: -70%;
+  cursor: pointer;
+}
+.delete-btn:hover {
+  background-color: #d40a0a;
+  border: none;
+  color: #ffffff;
+}
+
+.italic {
+  font-style: italic;
+}

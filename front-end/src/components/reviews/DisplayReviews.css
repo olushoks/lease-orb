@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.review-section {
+  /* float: right; */
+  width: 90vw;
+  /* height: 90vh; */
+  margin: 1rem 2rem 2rem 2rem;
+  /* margin: 5vh 2rem 3vh 5rem; */
+  background-color: rgba(112, 15, 169, 0.1);
+  padding: 0.5rem;
+  width: 50rem;
+  border-radius: 1rem 0.7rem;
+}
+
+.review-by-date {
+  font-family: "Cookie", cursive;
+  font-size: 1.2rem;
+  text-align: right;
+  color: rgb(111, 15, 167);
+}

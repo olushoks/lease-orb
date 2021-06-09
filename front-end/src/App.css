@@ -1,0 +1,19 @@
+.logo-text {
+  text-align: center;
+  font-size: 5rem;
+  color: #6f0fa7;
+  padding: 0.3rem 0.5rem;
+  text-decoration: underline;
+}
+
+.landing-page-review {
+  position: fixed;
+  left: 40%;
+  top: 20%;
+}
+
+.log-in {
+  position: fixed;
+  left: 8%;
+  top: 5%;
+}

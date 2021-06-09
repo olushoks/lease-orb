@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.form-div {
+  width: 30vw;
+  height: 70vh;
+  margin: 15vh 2rem 15vh 2rem;
+  padding: 1em;
+  background: #dddde6;
+  float: left;
+  border-left: solid #6f0fa7;
+  border-radius: 0 1rem 0 1rem;
+}
+
+.form-input {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-bottom: 5rem;
+  float: left;
+}
+
+input {
+  display: block;
+  width: 15rem;
+  height: 2.5rem;
+  padding: 0.2rem 0.5rem;
+  color: #0d2942;
+  border: 0.15rem solid #6f0fa7;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  width: 15rem;
+  text-align: center;
+  padding: 0.5rem 2.5rem;
+  margin-bottom: 0.5rem;
+  color: #c7dcee;
+  background-color: #6f0fa7;
+  border: none;
+  cursor: pointer;
+}
+
+.guide-text span {
+  text-decoration: underline;
+  cursor: pointer;
+  padding-left: 0.5rem;
+}
+
+.login-error {
+  border-left: 0.3rem solid red;
+  padding-left: 0.3rem;
+  margin: 2rem 0 2rem;
+  position: relative;
+  top: 35%;
+  left: 25%;
+}
