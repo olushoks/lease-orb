@@ -34,14 +34,24 @@ lease-orb is a full-stack app having both Front-End (Client-Side) & Back-End (Se
 
 1. Navigate to the back-end in the terminal or CLI.
 2. npm install to download the dependencies.
-3. MongoDB URI/Connection string is required to connect to MongoDB Atlas in order be able to store user info to the Database. If you do not have an account, you can easily sign up for a free-tier account here: https://www.mongodb.com/cloud/atlas/register
+3. MongoDB URI/Connection string is required to connect to MongoDB Atlas in order be able to store user info to the Database. If you do not have an account, you can easily sign up for a free-tier account here: https://www.mongodb.com/cloud/atlas/register. Once you have your connection string, create a config folder at the base of the back-end folder, then create a json file inside of it, and copy this code there: 
+
+
+`
+{
+  "mongoURI": [INSERT YOUR CONNECTION STRING HERE],
+  "jwtSecret": [ENTER A SECRET CODE HERE FOR JWT GENERATION],
+  "expiresIn": "6h"
+}
+`
+
 4. npm start to spin the server. It will default to http://localhost:5000. If you'd like to use a different port, navigate to the index.js file, and make the change on Line 15
 
 ###### FRONT-END
 
 1. Navigate to the front-end in the terminal or CLI.
 2. npm install to download the dependencies.
-3. Google-Map API key is required for Map features (Listing and Searching available lease(s)). You can sign up for Google API Key here: https://cloud.google.com/
+3. Google-Map API key is required for Map features (Listing and Searching available lease(s)). You can sign up for Google API Key here: https://cloud.google.com/. Once you have your API key, where. you have `import APIKEY from "../../key";` in both the Map and MapWithAutoComplete component to `const APIKEY = [YOUR API Key]`
 4. npm start to spin the server. It will default to http://localhost:3000 if you do not have anything currently on it, otherwise, it will ask in the terminal/CLI if you'd like to spin it on another port.
 
 ## SUGGESTION(S)
